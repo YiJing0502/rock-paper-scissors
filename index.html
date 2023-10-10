@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>剪刀石頭布</title>
     <style>
         * {
             box-sizing: border-box;
@@ -204,11 +204,6 @@
     <div class="game-page">
         <nav class="nav-bar flex">
             <div class="logo-game"><img src="./img/hand-spock-solid-white-01.svg" alt="logo"></div>
-            <!-- <div class="score-board">
-                <div class="score-player">0</div>
-                <div class="score-center">比</div>
-                <div class="score-computer">0</div>
-            </div> -->
         </nav>
         <div class="game-container">
             <section>
@@ -238,7 +233,6 @@
             </section>
         </div>
     </div>
-    <!-- <div class="over-page"></div> -->
     <script>
         const btnStartGame = document.querySelector('.btn-start-game');
         const homePage = document.querySelector('.home-page');
@@ -373,7 +367,6 @@
                 gameHint.innerHTML = '電腦已出牌';
                 announcer.innerHTML = '裁決結果';
                 announcer.innerHTML = '你贏了！';
-
             }
         }
 
